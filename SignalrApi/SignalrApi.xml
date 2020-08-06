@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SignalrApi</name>
+    </assembly>
+    <members>
+        <member name="M:SignalrApi.TokenHelper.TokenAuthenticationService.SerializeJWT(System.String)">
+            <summary>
+            解析JWT字符串
+            </summary>
+            <param name="jwtStr"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

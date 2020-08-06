@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+    <script type="text/javascript" src="~/js/jscookie.js"></script>
+<script type="text/javascript" src="~/lib/jquery/dist/jquery.min.js"></script>
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>
+        名称:<input id="username" type="text" value="hyc" /><br />
+        密码:<input id="password" type="text" value="aa1234" /><br />
+        <input type="button" id="btn" value="提交" />
+    </p>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var username = $('#username').val();
+        var password = $('#password').val();
+        var url = "http://localhost:5000";
+        $("#btn").click(function () {
+            $.ajax({
+                url: url + '/api/Auth/PostToken',
+                type: 'post',
+                // JSON.stringify解决404错误请求
+                data: JSON.stringify({
+                    UserName: username,
+                    Password: password
+                }),
+                dataType: 'json',
+                contentType: 'application/json; charset=UTF-8',// 解决415错误
+                success: function (res) {
+                    setCookie("signalrusername", res.access_token)
+                }
+            })
+        });
+    });
+
+   
+
+</script>
