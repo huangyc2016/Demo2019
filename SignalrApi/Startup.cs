@@ -88,18 +88,6 @@ namespace SignalrApi
 
             #endregion
 
-
-            //services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-            //services.AddAuthorization(option =>
-            //{
-            //    option.AddPolicy("auth1", policy =>
-            //    {
-            //        policy.Requirements.Add(new AdultPolicyRequirement(12));
-            //    });
-            //});
-            //services.AddSingleton<IAuthorizationHandler, AdultAuthorizationHandler>();
-
-
             #region == ⁄»®—È÷§==
             services.Configure<TokenManagement>(Configuration.GetSection("TokenManagement"));
             var token = Configuration.GetSection("TokenManagement").Get<TokenManagement>();
