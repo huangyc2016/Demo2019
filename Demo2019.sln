@@ -5,11 +5,15 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swagger", "Swagger\Swagger.csproj", "{3C61547E-CD88-4272-841D-F4ADEF6FBCD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalrApi", "SignalrApi\SignalrApi.csproj", "{7A50EC08-9EB7-4029-8FC0-F7D1F20D31C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalrApi", "SignalrApi\SignalrApi.csproj", "{7A50EC08-9EB7-4029-8FC0-F7D1F20D31C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalrApp", "SignalrApp\SignalrApp.csproj", "{7DDE7BE1-538D-41B0-A7DD-783570AA450F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalrApp", "SignalrApp\SignalrApp.csproj", "{7DDE7BE1-538D-41B0-A7DD-783570AA450F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalrWeb", "SignalrWeb\SignalrWeb.csproj", "{2E24BA75-C1AF-400E-B1AC-636AFF52185E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalrWeb", "SignalrWeb\SignalrWeb.csproj", "{2E24BA75-C1AF-400E-B1AC-636AFF52185E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzApp", "QuartzApp\QuartzApp.csproj", "{B1B6849C-43D8-4C7D-82DC-DABBB53BA043}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentSchedulerApp", "FluentSchedulerApp\FluentSchedulerApp.csproj", "{B7BB3FBB-DDCA-4EB9-A73D-ABEA111CCA7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{2E24BA75-C1AF-400E-B1AC-636AFF52185E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E24BA75-C1AF-400E-B1AC-636AFF52185E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E24BA75-C1AF-400E-B1AC-636AFF52185E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1B6849C-43D8-4C7D-82DC-DABBB53BA043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1B6849C-43D8-4C7D-82DC-DABBB53BA043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1B6849C-43D8-4C7D-82DC-DABBB53BA043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1B6849C-43D8-4C7D-82DC-DABBB53BA043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7BB3FBB-DDCA-4EB9-A73D-ABEA111CCA7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7BB3FBB-DDCA-4EB9-A73D-ABEA111CCA7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7BB3FBB-DDCA-4EB9-A73D-ABEA111CCA7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7BB3FBB-DDCA-4EB9-A73D-ABEA111CCA7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
