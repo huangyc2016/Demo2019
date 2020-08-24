@@ -7,7 +7,7 @@
       "AssemblyName": "QuartzApp", //程序集名称
       "JobName": "QuartzApp.Worker.Demo.JobA", //必须是执行任务名称
       "JobGroup": "Demo", //可以使用自定义名称
-      "Cron": "5/15 * 11-15 * * ?", //触发表达式(30秒钟触发一次)
+      "Cron": "5/15 * * * * ?", //触发表达式(每天30秒钟触发一次)
       "Status": 1 //(1:启动;0:停用)
     },
     /*服务JobB*/
@@ -16,7 +16,7 @@
       "AssemblyName": "QuartzApp", //程序集名称
       "JobName": "QuartzApp.Worker.Demo.JobB", //必须是执行任务名称
       "JobGroup": "Demo", //可以使用自定义名称
-      "Cron": "5/30 * 11-15 * * ?", //触发表达式(60秒钟触发一次)
+      "Cron": "5/30 * 10-18 * * ?", //触发表达式(每天10点到18点,每30秒钟触发一次)
       "Status": 1 //(1:启动;0:停用)
     }
   ]
