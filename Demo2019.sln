@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalrWeb", "SignalrWeb\Si
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuartzApp", "QuartzApp\QuartzApp.csproj", "{B1B6849C-43D8-4C7D-82DC-DABBB53BA043}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerApp", "DockerApp\DockerApp.csproj", "{660743A4-3FE6-4ADA-B264-144548A65178}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{B1B6849C-43D8-4C7D-82DC-DABBB53BA043}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1B6849C-43D8-4C7D-82DC-DABBB53BA043}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1B6849C-43D8-4C7D-82DC-DABBB53BA043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{660743A4-3FE6-4ADA-B264-144548A65178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{660743A4-3FE6-4ADA-B264-144548A65178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{660743A4-3FE6-4ADA-B264-144548A65178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{660743A4-3FE6-4ADA-B264-144548A65178}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
