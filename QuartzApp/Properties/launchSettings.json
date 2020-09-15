@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "QuartzApp": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

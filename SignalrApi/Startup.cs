@@ -159,6 +159,15 @@ namespace SignalrApi
             });
             #endregion
 
+            #region==Redis==
+            services.AddDistributedRedisCache(option => {
+                var redisip = Configuration.GetSection("Redis")["ip"];
+                var redisname = Configuration.GetSection("Redis")["name"];
+                option.Configuration = redisip;
+                option.InstanceName = redisname;
+            });
+            #endregion
+
             services.AddSingleton<IUserService, UserService>();
             services.AddSingleton<IAuthenticateService, TokenAuthenticationService>();
 
